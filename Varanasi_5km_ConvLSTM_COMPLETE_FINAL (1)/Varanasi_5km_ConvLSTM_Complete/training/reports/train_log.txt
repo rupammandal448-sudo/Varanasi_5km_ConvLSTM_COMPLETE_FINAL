@@ -1,0 +1,37 @@
+07:56:37 years found: [2024, 2025] | ERA5 files: 8 | IMERG files: 8
+07:56:42 loaded. ERA5 coverage 100.0%, IMERG coverage 100.0%
+07:56:42 rows: train/OOF pool 675290 | test 674443 | rain rate train 0.072 test 0.086
+07:56:42 === variant full: 25 features
+07:57:02   OOF quarter 1 done (167090 rows held out)
+/usr/local/lib/python3.12/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (40) reached and the optimization hasn't converged yet.
+  warnings.warn(
+07:57:25   OOF quarter 2 done (168168 rows held out)
+07:57:34   OOF quarter 3 done (170016 rows held out)
+07:57:55   OOF quarter 4 done (170016 rows held out)
+07:57:55   stacker weights (GB, RF, NN): [[0.175 0.672 0.15 ]] intercept [-0.861]
+/usr/local/lib/python3.12/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (40) reached and the optimization hasn't converged yet.
+  warnings.warn(
+07:58:33   decision threshold (max CSI on OOF): 0.350
+07:58:39   TEST 2025 stacked: AUC 0.968 AP 0.807 Brier 0.0321 POD 0.792 FAR 0.285 CSI 0.602
+07:58:39 === variant lite: 19 features
+07:59:00   OOF quarter 1 done (167090 rows held out)
+/usr/local/lib/python3.12/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (40) reached and the optimization hasn't converged yet.
+  warnings.warn(
+07:59:22   OOF quarter 2 done (168168 rows held out)
+/usr/local/lib/python3.12/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (40) reached and the optimization hasn't converged yet.
+  warnings.warn(
+07:59:31   OOF quarter 3 done (170016 rows held out)
+/usr/local/lib/python3.12/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (40) reached and the optimization hasn't converged yet.
+  warnings.warn(
+07:59:54   OOF quarter 4 done (170016 rows held out)
+07:59:54   stacker weights (GB, RF, NN): [[-0.094  0.305  0.185]] intercept [-1.712]
+08:00:27   decision threshold (max CSI on OOF): 0.150
+08:00:33   TEST 2025 stacked: AUC 0.867 AP 0.403 Brier 0.0686 POD 0.453 FAR 0.592 CSI 0.273
+08:00:35 trend temp_c  MAE model 0.7060 vs persistence 0.8563 (per hour)
+08:00:35 trend rh      MAE model 2.6265 vs persistence 3.2943 (per hour)
+08:00:35 trend u       MAE model 0.2998 vs persistence 0.3080 (per hour)
+08:00:36 trend v       MAE model 0.2994 vs persistence 0.3239 (per hour)
+08:00:36 models.json 1.25 MB
+08:00:36 exported JSON vs sklearn, max |diff| (full): 1.5824086319060626e-07
+08:00:36 exported JSON vs sklearn, max |diff| (lite): 1.048069448172928e-07
+08:00:47 DONE

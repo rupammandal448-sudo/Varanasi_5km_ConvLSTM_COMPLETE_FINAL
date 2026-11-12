@@ -1,0 +1,10 @@
+feature,expected_values,available_values,missing_values,coverage_pct
+temperature_2m_C,3696,3542,154,95.83
+relative_humidity_pct,3696,3542,154,95.83
+dewpoint_temperature_2m_C,3696,3542,154,95.83
+surface_pressure_hPa,3696,3542,154,95.83
+precipitation_mm,3696,3542,154,95.83
+wind_speed_10m_kmh,3696,3542,154,95.83
+wind_direction_10m_deg,3696,3542,154,95.83
+total_cloud_cover_pct,3696,3542,154,95.83
+shortwave_radiation_W_m2,3696,3542,154,95.83

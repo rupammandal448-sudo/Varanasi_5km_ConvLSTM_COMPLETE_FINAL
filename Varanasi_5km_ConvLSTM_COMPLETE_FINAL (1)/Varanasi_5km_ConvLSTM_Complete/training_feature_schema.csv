@@ -1,0 +1,12 @@
+model_channel_name,ERA5_Q1_column,ERA5_Q4_column,unit,source
+boundary_layer_height_m,boundary_layer_height_m,boundary_layer_height,m,ERA5
+dewpoint_temperature_2m_K,dewpoint_temperature_2m_K,dewpoint_temperature_2m,K,ERA5
+skin_temperature_K,skin_temperature_K,skin_temperature,K,ERA5
+surface_pressure_Pa,surface_pressure_Pa,surface_pressure,Pa,ERA5
+surface_solar_radiation_J_m2,surface_solar_radiation_J_m2,surface_solar_radiation_downwards,J/m²,ERA5
+temperature_2m_K,temperature_2m_K,temperature_2m,K,ERA5
+total_cloud_cover,total_cloud_cover,total_cloud_cover,fraction,ERA5
+total_precipitation_m,total_precipitation_m,total_precipitation,m,ERA5
+u_wind_10m_ms,u_wind_10m_ms,u_component_of_wind_10m,m/s,ERA5
+v_wind_10m_ms,v_wind_10m_ms,v_component_of_wind_10m,m/s,ERA5
+precipitation_mm_hr,,,mm/hr,IMERG

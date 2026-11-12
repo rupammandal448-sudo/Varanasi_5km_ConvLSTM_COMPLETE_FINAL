@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+joblib
+requests
+python-dotenv
+flask
+gunicorn
+# only needed for the ConvLSTM scripts / notebooks (Colab already has it):
+# torch
