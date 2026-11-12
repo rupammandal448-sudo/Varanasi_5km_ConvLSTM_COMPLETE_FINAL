@@ -1,0 +1,9 @@
+data
+outputs
+live_12h
+imd_live_data
+training
+.git
+.env
+*.ipynb
+*.pt

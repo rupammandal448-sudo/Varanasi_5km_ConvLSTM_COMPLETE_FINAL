@@ -1,0 +1,30 @@
+[
+  {
+    "ID":"UPDGM000",
+    "CALL_SIGN":null,
+    "DISTRICT":"MIRZAPUR",
+    "STATE":"UTTAR_PRADESH",
+    "STATION":"DAGMAPUR",
+    "DATE":"2026-10-10",
+    "TIME":"10:00:00",
+    "CURR_TEMP":"29.3",
+    "DEW_POINT_TEMP":null,
+    "RH":"67",
+    "WIND_DIRECTION":"19",
+    "WIND_SPEED":9.3,
+    "MSLP":"1011.4",
+    "MIN_TEMP":"22.3",
+    "MAX_TEMP":"31.4",
+    "Latitude":25.0999,
+    "Longitude":82.7985,
+    "WEATHER_CODE":"0",
+    "NEBULOSITY":"0",
+    "RAINFALL_SEL":"NULL",
+    "RAINFALL":"0.0",
+    "Feel Like":"32.8",
+    "WEATHER_ICON":"100-fill",
+    "WEATHER_MESSAGE":"Clear Sky",
+    "BACKGROUND":"clear.gif",
+    "BACKGROUND_URL":"https:\/\/mausam.imd.gov.in\/img\/bg\/clear.gif"
+  }
+]

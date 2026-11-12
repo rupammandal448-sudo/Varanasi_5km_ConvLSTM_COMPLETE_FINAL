@@ -1,0 +1,3 @@
+# Install the normal project requirements plus PyTorch to retrain the ConvLSTM.
+-r requirements.txt
+torch

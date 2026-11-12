@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.tmp
+data/*.csv
+web/history.json
+.pytest_cache/
+web/history.json.tmp
